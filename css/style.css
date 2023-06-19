@@ -1,0 +1,634 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SECTION FOR CONTAINERS */
+#home {
+    height: 100vh;
+    background-image: url('../img/body.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#about {
+    height: 100vh;
+    background-color: #fff;
+    margin-bottom: 114px;
+}
+#login {
+    height: 80vh;
+    background-color: #fff;
+    position: relative;
+
+}
+
+#contact {
+    height: 80vh;
+    background-image: url("../img/footing.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+/* SECTION FOR CONTAINERS */
+
+.custom-bar {
+    font-size: 1.3rem; padding-left: 20px; padding-top: 30px;
+}
+
+.head {
+    position: relative; top: 150px;
+    font-family: 'Oleo Script Swash Caps', cursive; padding-left: 12px; font-size: 70px; color: #FF7800; margin: 0;
+}
+
+.custombar1 {color: #EDEBCA;  display: inline-block;}
+.custombar2 {color: #EDEBCA; padding-left: 50px;  display: inline-block;}
+.custombar3 {color: #EDEBCA; padding-left: 50px;  display: inline-block;}
+.custombar4 {color: #EDEBCA; padding-left: 50px;  display: inline-block;}
+
+.button {border: none; position: absolute; top: 210px;  left: 120px; height: 30px; border-radius: 6px; background-color: #FF7800; color: white;}
+.button:hover {opacity: 0.5;}
+.imglogo {height: 80px; width: 130px; position: relative; top: 5px;}
+
+.heading2 {font-family: 'Oleo Script Swash Caps', cursive;text-align: center; font-size: 3rem; margin: 0; padding: 0; position: relative; top: 15px;}
+
+.aboutwrap { margin-left: 30px; margin-right: 30px; border: 3px solid black; position: relative; top: 40px; border-radius: 10px; height: inherit; width: inherit;}
+
+.one { margin-left: 3%; position: absolute; top: 6%; border: 3px solid black; border-radius: 15px; width: 45%; height: 40%; display: inline-block;}
+
+.one1 {margin-left: 3%; width: 29%; height: 100%; display:inline-block; text-align: center;}
+
+.one2 {position: absolute; right: 0; width: 63%; height: 100%; display: inline-block;}
+
+.two { margin-right: 3%; position: absolute;  top: 6%; right: 0; border: 3px solid black; width: 45%; height: 40%; display: inline-block; border-radius: 15px;}
+
+.two1 {position: absolute; left: 0; width: 63%; height: 100%; display: inline-block;}
+
+.two2 {position: absolute; right: 0; margin-right: 3%; width: 29%; height: 100%; display:inline-block; text-align: center;}
+
+.three { margin-left: 3%;  position: absolute; top: 53.7%; bottom: 0; left: 0; border: 3px solid black; border-radius: 15px; width: 45%; height: 40%; display: inline-block;}
+
+.three1 {margin-left: 3%; width: 29%; height: 100%; display:inline-block; text-align: center;}
+
+.three2 {position: absolute; right: 0; width: 63%; height: 100%; display: inline-block;}
+
+.four {margin-right: 3%; position: absolute; right: 0; top: 53.7%; border: 3px solid black; width: 45%; height: 40%; display: inline-block;  border-radius: 15px;}
+
+.four1 {position: absolute; left: 0; width: 63%; height: 100%; display: inline-block;}
+
+.four2 {position: absolute; right: 0; margin-right: 3%; width: 29%; height: 100%; display:inline-block; text-align: center;}
+
+.h3one {margin-bottom: 0;}
+
+.pone {margin-top: 10px;}
+
+.imgone {width: 100%; height: 100%; border-radius: 15px; border-top-left-radius: 0%; border-bottom-left-radius: 0;}
+
+.h3two {margin-bottom: 0;}
+
+.ptwo {margin-top: 10px;}
+
+.imgtwo {width: 100%; height: 100%; border-radius: 15px; border-top-right-radius: 0%; border-bottom-right-radius: 0;}
+
+.h3three {margin-bottom: 0;}
+
+.pthree {color: black; margin-top: 10px;}
+
+.imgthree {width: 100%; height: 100%; border-radius: 15px; border-top-left-radius: 0%; border-bottom-left-radius: 0;}
+
+.h3four {margin-bottom: 0;}
+
+.pfour {margin-top: 10px;}
+
+.imgfour {width: 100%; height: 100%; border-radius: 15px; border-top-right-radius: 0%; border-bottom-right-radius: 0;}
+
+.login1 {padding-left: 30px; padding-right: 15px; position: absolute; left: 30px; top: 50px; border-radius: 15px; border: 3px solid black; height: 80%; width: 25%;}
+
+.login2 {position: absolute; right: 29px; top: 50px; border-radius: 18px; border: 3px solid black; height: 80%; width: 64%;}
+
+.login1h2 {text-align: justify; color: black;}
+
+.login1h3 {line-height: 23px; color: black; text-align: left}
+
+.login2h1 {color: black; text-align: center; margin-bottom: 40px;}
+
+.form {color: black; padding-left: 20px; font-weight: bolder; font-size: 21px; width: 90%; height: 60%; margin-left: auto; margin-right: auto;}
+
+.f1, .f2, .f3, .f4 {padding-bottom: 60px;} 
+
+.in1, .in2, .in3, .in4 {border-radius: 5px; position: absolute; right: 50px; width: 60%; height: 17px;}
+
+.contact1 {position: relative;}
+.contact2 {position: relative; font-size: 20px;}
+.contact3 {position: relative;}
+
+.contacth1 {font-family: 'Oleo Script Swash Caps', cursive; position: absolute; right: 70px; font-size: 4.4rem; color: #FF7800;}
+.contactimg {height: 100px; width: 130px; position: absolute; right: 155px; top: 130px;}
+.contimg1 {position: absolute; right: 140px; top: 300px;  height: 25px; width: 30px;}
+.contimg2 {position: absolute; right: 140px; top: 300px; padding-right: 65px; height: 25px; width: 30px;}
+.contimg3 {position: absolute; right: 140px; top: 300px; padding-right: 130px; height: 25px; width: 30px;}
+.contactp1 {color: #EDEBCA; position: absolute; right: 100px;  top: 250px;}
+.contactp2 {color: #EDEBCA; position: absolute; right: 110px;  top: 270px;}
+
+/* MEDIA QUERY */
+
+/* STARTING POINT OF FIXING TO 100% ZOOM LEVEL */
+
+@media (min-width: 1152px) { 
+  a {
+    text-decoration: none;
+    color: #EDEBCA;
+   }
+    a:hover {
+        color: #B3B3B3;
+    }
+    .head {
+        position: absolute; 
+        top: 100px;
+        font-size: 4.5rem;
+        padding-left: 16px; 
+        
+    }
+    .button { top: 180px;
+    }
+    .imglogo {left: 100px; width: 100px;} 
+
+    
+    .custom-bar {
+        padding-left: 16px;
+        font-size: 1rem;
+    }
+    .one {
+        font-size: 65%;
+      }
+      .two {
+        font-size: 65%;
+      }
+      .three {
+        font-size: 65%;
+      }
+      .four {
+        font-size: 65%;
+      }
+      .login1 {
+        font-size: 65%;
+      }
+      .contacth1 {
+        right: 20px;
+        top: 40px;
+      }
+      .contactimg {
+        right: 140px;
+        top: 180px;
+      }
+      .login2 {font-size: 15px;}
+  
+      .form { 
+        position: absolute; top: 30%; left: 13%;
+       font-size: 15px;
+        width: 82%; 
+       padding-left: 0;
+      }
+      .in1, .in2, .in3, .in4 {right: 50px; width: 50%;}
+    
+    
+      .f1, .f2, .f3, .f4 {padding-bottom: 30px;} 
+
+      .contacth1 {
+        right: 20px;
+        top: 20px;
+        margin: 0;
+      }
+      .contactimg {
+        right: 120px;
+        top: 100px;
+        width: 120px;
+      }
+      .contactp1 {
+        right: 50px;
+        top: 200px;
+      }
+      .contactp2 {
+        right: 55px;
+        top: 220px;
+      }
+
+}
+
+@media (max-width: 1151px) and (min-width: 992px) {
+
+  a {
+    text-decoration: none;
+    color: #EDEBCA;
+   }
+    a:hover {
+        color: #B3B3B3;
+    }
+    .head {
+        position: absolute; 
+        top: 100px;
+        font-size: 3rem;
+        padding-left: 16px;
+        
+    }
+
+
+    .button {top: 170px; left: 50px;}
+    .imglogo {left: 110px; width: 80px;}
+
+    .custom-bar {
+        padding-left: 16px;
+        font-size: 0.9rem;
+    }
+
+    .heading2 {
+        font-size: 1.8rem;
+    }
+
+  .one, .two, .three, .four {
+    font-size: 70%;
+  }
+
+  .login1 {
+    font-size: 55%;
+  }
+
+  .login2 {font-size: 12px;}
+  
+      .form { 
+        position: absolute; top: 30%; left: 13%;
+       font-size: 12px;
+        width: 82%; 
+       padding-left: 0;
+      }
+      .in1, .in2, .in3, .in4 {right: 50px; width: 50%;}
+    
+    
+      .f1, .f2, .f3, .f4 {padding-bottom: 30px;} 
+
+      .contacth1 {
+        right: 20px;
+        top: 20px;
+        margin: 0;
+        font-size: 3.3rem;
+      }
+      .contactimg {
+        right: 100px;
+        top: 80px;
+       width: 90px;
+      }
+      .contactp1 {
+        right: 50px;
+        top: 200px;
+        font-size: 15px;
+      }
+      .contactp2 {
+        right: 55px;
+        top: 220px;
+        font-size: 15px;
+      }
+
+  .login2 {width: 61%;}
+  .login1 {width: 24.5%;}
+
+  } 
+
+  
+
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+  a {
+    text-decoration: none;
+    color: #EDEBCA;
+   }
+    a:hover {
+        color: #B3B3B3;
+    }
+    .head { 
+        position: absolute; 
+        top: 100px;
+        font-size: 2.5rem;
+        padding-left: 12px;
+        
+    }
+
+    .button {top: 310px; left: 60px;}
+    .custom-bar {
+        padding-left: 12px;
+        font-size: 0.7rem;
+    }
+    .custombar1 {color: #EDEBCA;  display: inline-block;}
+    .custombar2 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+    .custombar3 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+    .custombar4 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+
+  .imglogo {left: 90px; width: 60px;}
+
+  .heading2 {
+        font-size: 1.5rem;
+    }
+
+  .one, .two, .three, .four {
+    font-size: 63.6%;
+  }
+
+  .login1 {
+    font-size: 87%;
+  }
+
+  .login1 {width: 30.5%; top: 0; font-size: 9px; height: 92%;}
+  .login2 {width: 51%; top: 0; font-size: 13px; height: 92%;}
+  
+  
+  .form { 
+    width: 70%; 
+   padding-left: 0;
+   font-size: 15px;
+ 
+  }
+  .in1, .in2, .in3, .in4 {right: 40px; width: 45%;}
+
+  .f1, .f2, .f3, .f4 {font-size: 12px; padding-bottom: 45px;} 
+
+  .contacth1 {
+    right: 20px;
+    top: 20px;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  .contactimg {
+    right: 80px;
+    top: 60px;
+   width: 50px;
+   height: 60px;
+  }
+  .contactp1 {
+    right: 20px;
+    top: 170px;
+    font-size: 12px;
+  }
+  .contactp2 {
+    right: 20px;
+    top: 185px;
+    font-size: 12px;
+  }
+     
+  } 
+
+  
+@media (max-width: 767px) and (min-width: 576px) {
+
+  a {
+    text-decoration: none;
+    color: #EDEBCA;
+   }
+    a:hover {
+        color: #B3B3B3;
+    }
+    .head { 
+        position: absolute; 
+        top: 100px;
+        font-size: 2.3rem;
+        padding-left: 12px;
+        
+    }
+    .button {top: 120px; height: 20px; left: -2px;}
+    .custom-bar {
+        padding-left: 12px;
+        font-size: 0.5rem;
+    }
+.custombar1 {color: #EDEBCA;  display: inline-block;}
+.custombar2 {color: #EDEBCA; padding-left: 30px;  display: inline-block;}
+.custombar3 {color: #EDEBCA; padding-left: 30px;  display: inline-block;}
+.custombar4 {color: #EDEBCA; padding-left: 30px;  display: inline-block;}
+
+  .imglogo {left: 70px; width: 40px; height: 50px; top: 1px;}
+
+  .heading2 {
+        font-size: 1.2rem;
+    }
+  
+.aboutwrap {margin-left: 10px; margin-right: 10px; top: 50px;}
+
+  .one {  font-size: 52%; top: 3.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .two {  font-size: 52%; top: 27.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .three {  font-size: 52%; top: 52%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .four {  font-size: 52%; top: 76%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;}
+
+
+
+
+  .login1 {font-size: 8px; width: 87.5%; top: 0%; height: 41%; left: 1.5%;}
+  .login2 {font-size: 8px; width: 95%; top: 46%; height: 50%; right: 2%;}
+  
+  
+  
+  .form { 
+    position: absolute; top: 25%; left: 15%;
+   font-size: 10px;
+    width: 82%; 
+   padding-left: 0;
+  }
+  .in1, .in2, .in3, .in4 {right: 50px; width: 50%;}
+
+
+  .f1, .f2, .f3, .f4 {padding-bottom: 20px;} 
+
+  .contacth1 {
+    right: 20px;
+    top: 50px;
+    margin: 0;
+    font-size: 2.3rem;
+  }
+  .contactimg {
+    right: 80px;
+    top: 90px;
+   width: 40px;
+   height: 60px;
+  }
+  .contactp1 {
+    right: 20px;
+    top: 230px;
+    font-size: 10px;
+  }
+  .contactp2 {
+    right: 20px;
+    top: 245px;
+    font-size: 10px;
+  }
+     
+  } 
+
+
+
+
+   @media (max-width: 575px) and (min-width: 385px) {
+
+    a {
+      text-decoration: none;
+      color: #EDEBCA;
+     }
+      a:hover {
+          color: #B3B3B3;
+      }
+    .head { 
+        position: absolute; 
+        top: 100px;
+        font-size: 1.9rem;
+        padding-left: 12px;
+        
+    }
+    .button {top: 170px; height: 15px; left: 65px; font-size: 10px;}
+    .custom-bar {
+        padding-left: 12px;
+        font-size: 0.5rem;
+    }
+.custombar1 {color: #EDEBCA;  display: inline-block;}
+.custombar2 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+.custombar3 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+.custombar4 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+
+  .imglogo {left: 50px; width: 30px; height: 45px; top: 1px;}
+
+  .heading2 {
+        font-size: 1rem;
+    }
+  
+.aboutwrap {margin-left: 5px; margin-right: 5px; top: 50px;}
+
+  .one {  font-size: 43%; top: 3.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .two {  font-size: 43%; top: 27.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .three {  font-size: 43%; top: 52%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .four {  font-size: 43%; top: 76%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;}
+
+
+
+
+  .login1 {font-size: 6px; width: 84.5%; top: 0%; height: 41%; left: 1%;}
+  .login2 {font-size: 7px; width: 95.5%; top: 46%; height: 50%; right: 1%;}
+  
+  
+  
+  .form { 
+   font-size: 11px;
+    width: 42%; 
+   padding-left: 0;
+
+  }
+  .in1, .in2, .in3, .in4 {right: -70px; width: 80%; height: 30%;}
+
+
+  .f1, .f2, .f3, .f4 {position: relative; right: 40px; bottom: 20px; padding-bottom: 20px;} 
+
+  .contacth1 {
+    right: 12px;
+    top: 50px;
+    margin: 0;
+    font-size: 1.9rem;
+  }
+  .contactimg {
+    right: 60px;
+    top: 90px;
+   width: 30px;
+   height: 45px;
+  }
+  .contactp1 {
+    right: 12px;
+    top: 230px;
+    font-size: 9px;
+  }
+  .contactp2 {
+    right: 12px;
+    top: 245px;
+    font-size: 9px;
+  }
+     
+  }
+
+  @media (max-width: 385px) {
+
+    a {
+      text-decoration: none;
+      color: #EDEBCA;
+     }
+      a:hover {
+          color: #B3B3B3;
+      }
+    .head { 
+        position: absolute; 
+        top: 100px;
+        font-size: 1.9rem;
+        padding-left: 12px;
+        
+    }
+    .button {top: 170px; height: 15px; left: 65px; font-size: 10px;}
+    .custom-bar {
+        padding-left: 12px;
+        font-size: 0.5rem;
+    }
+.custombar1 {color: #EDEBCA;  display: inline-block;}
+.custombar2 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+.custombar3 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+.custombar4 {color: #EDEBCA; padding-left: 20px;  display: inline-block;}
+
+  .imglogo {left: 50px; width: 30px; height: 45px; top: 1px;}
+
+  .heading2 {
+        font-size: 1rem;
+    }
+  
+.aboutwrap {margin-left: 5px; margin-right: 5px; top: 50px;}
+
+  .one {  font-size: 43%; top: 3.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .two {  font-size: 43%; top: 27.5%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .three {  font-size: 43%; top: 52%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;} 
+  .four {  font-size: 43%; top: 76%; width: 90%; height: 20%;  margin-left: 4.5%; margin-right: 4.5%;}
+
+
+
+
+  .login1 {font-size: 6px; width: 84.5%; top: 0%; height: 41%; left: 1%;}
+  .login2 {font-size: 7px; width: 95.5%; top: 46%; height: 50%; right: 1%;}
+  
+  
+  
+  .form { 
+   font-size: 11px;
+    width: 42%; 
+   padding-left: 0;
+
+  }
+  .in1, .in2, .in3, .in4 {right: -70px; width: 80%; height: 30%;}
+
+
+  .f1, .f2, .f3, .f4 {position: relative; right: 40px; bottom: 20px; padding-bottom: 20px;} 
+
+  .contacth1 {
+    right: 12px;
+    top: 50px;
+    margin: 0;
+    font-size: 1.9rem;
+  }
+  .contactimg {
+    right: 60px;
+    top: 90px;
+   width: 30px;
+   height: 45px;
+  }
+  .contactp1 {
+    right: 12px;
+    top: 230px;
+    font-size: 9px;
+  }
+  .contactp2 {
+    right: 12px;
+    top: 245px;
+    font-size: 9px;
+  }
+  }
+
+
+/* MEDIA QUERY */
